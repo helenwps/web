@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="renderer" content="webkit" />
+		<meta name="Author" content="13322 Lawyer Team">
+		<title>法义注册 - 华海法义 - 免费律师在线咨询解答，国内领先的法律咨询服务平台</title>
+		<meta name="keywords" content="华海法义，法律咨询，免费律师在线咨询"/>
+		<meta name="description" content="华海法义是国内领先的法律咨询服务平台，致力于为用户提供优质法律服务。 华海法义成立至今以其诚信、透明、公平、高效、创新的特征赢得用户口碑。"/>
+	    <link href="static/css/base.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="static/css/login.css"/>
+	</head>
+	<body class="bg-grad">
+		<header class="header">
+			<div class="head-top">
+				<div class="logo">
+					<a href="index.html"><img src="static/images/logo1.png" alt="律师logo"></a><span>律师端</span>
+				</div>
+			</div>
+		</header>		
+		<div class="content">
+		    <div class="loginWrap regWrap">
+		        <h3>欢迎注册</h3>
+		        <div class="login reg">
+		            <ul>
+                        <li class="phone">
+							<input type="text" id="phone" placeholder="手机号" name=""  maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')">
+							<span class="error"></span>
+						</li>
+						<li class="code imgCode">
+							<input type="text" id="yzmImg" placeholder="图形验证码" name="">
+							<img id="pic" src="" />
+						</li>
+						<li class="code">
+							<input type="text" id="yzm" placeholder="短信验证码" name="" maxlength="6">
+							<button class="getCode">获取验证码</button>
+						</li>
+						<li class="userPwd"><input id="pwd1" type="password" placeholder="密码" name=""></li>
+						<li class="userPwd"><input id="pwd2" type="password" placeholder="确认密码" name=""></li>
+                    </ul>
+                    <div>
+                        <p class="errorInfo" id='errorInfo'>
+                        		<!--错误信息提示-->
+                        </p>
+                        <div>
+							<input class="sbtn" type="submit" value="注 册" name="">
+						</div>
+                    </div>
+                    <p class="goLogin">已有账号，立即<a href="login.html">登录</a></p>
+		        </div>
+		    </div>
+		</div>
+		<div class="login-footer">
+		    <p><a target="_blank" href="http://user.fy13322.com/">法义用户端</a>|<a target="_blank" href="http://www.huahaileying.com/">华海乐盈</a></p>
+		    <p>深圳法义网络科技有限公司 Copyright © 2014-2017. All Rights Reserved</p>
+		</div>
+		<div class="box" id="box">
+			<div class="boxIcon">
+				<img src="static/images/icon.png" alt="">
+			</div>			
+			<p>您已注册成功，是否进行身份验证？</p>
+			<div class="choice">
+				<a href="index.html">先逛逛</a>
+				<a href="/ucenter/">去验证</a>
+			</div>
+		</div>
+	</body>
+</html>

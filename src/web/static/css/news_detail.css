@@ -1,0 +1,151 @@
+body{background: #f7f8f8;}
+textarea{outline: 0}
+.warp{width: 100%;color: #333;}
+.main{width: 1180px;margin:0 auto;}
+.info{width: 738px;}
+@media screen and (max-width:1200px){
+	.main{width: 1000px;}
+	.info{width: 609px;}
+}
+
+.main{padding-top: 30px;overflow: hidden;margin-top: 85px;}
+.newsDetailAndHandle{width:71.18644%;}
+.newsDetailAndHandle,.rightContent{float: left;}
+.tit{border-bottom: 1px solid #cecece;font-size: 20px;}
+.tit span{display: inline-block;padding: 35px 0 15px 0;border-bottom:1px solid #bbc6e3;}
+.newsDetail{background: #fff;padding: 53px 62px 59px 62px;border-bottom: 1px solid #eee;}
+.newsDetail h1{font-weight: bold;line-height: 40px;}
+.newsDetail .author{padding:30px 0 30px 30px;background: #f8f8f8;margin:20px 0 30px 0;}
+.newsDetail .author img{width: 100%;width: 64px;height: 64px;border-radius: 64px;vertical-align: middle;}
+.newsDetail .author div{display: inline-block;vertical-align: middle;margin-left: 20px;line-height: 25px;}
+.newsDetail .author .name{color: #333;font-size: 18px;}
+.newsDetail .author .job{color: #666;font-size: 14px;}
+.newsDetail .author ul{overflow: hidden;margin-left: 88px;}
+.newsDetail .author ul li{color: #9fa0a0;font-size: 14px;float: left;margin-left: 19px;}
+.newsDetail .author ul li:first-child{margin-left: 0 }
+.newsDetail .content{font-size: 16px;color: #666;line-height: 30px}
+.newsDetail .content img{width: 100%;}
+.share {background: #fff;padding: 40px 0;text-align: center;}
+.share dl{display: inline-block;width: 100px;height: 45px;border: 1px solid #eee;line-height: 45px;border-radius: 4px;margin-left: 20px;cursor: pointer;}
+.share dl dt{display: inline-block;width: 20px;height: 25px;vertical-align: middle;}
+.share dl.one dt{background: url(../images/giveGood.png) no-repeat;}
+.share dl.one:hover,.red{background: #fc3d39;border: 1px solid #fc3d39 !important;}
+.share dl.one:hover dt,.red dt{background: url(../images/giveGoodHover.png) no-repeat !important;}
+.share dl.one:hover dd,.share dl.two:hover dd,.red dd,.green dd{color: #fff !important}
+.share dl.two dt{background: url(../images/collect.png) no-repeat;}
+.share dl.two:hover,.green{background: #40c159;border: 1px solid #40c159 !important;}
+.share dl.two:hover dt,.green dt{background: url(../images/collectHover.png) no-repeat !important;}
+.share dl.three{position: relative;}
+.share dl.three dt{background: url(../images/share.png) no-repeat;margin-top: 6px;}
+.share dl dd{display: inline-block;font-size: 14px;color: #999;}
+.shareNet{width: 148px;height: 97px;position: absolute;background: #fff; border:1px solid #eee;display: none;}
+.shareNet ul{line-height: 32px;text-align: left;padding: 14px 0 0 20px;}
+.shareNet ul li img{vertical-align: middle;}
+.shareNet ul li span{vertical-align: middle;margin-left: 15px;}
+.three:hover .shareNet{display: block;}
+
+        /*第一个三角形*/
+        .shareNet::before{  /*这里的伪元素用单冒号和双冒号都一样*/
+            content: '';
+            display: block;
+            position: absolute;
+            top: -8px;
+            left: 80px;
+            border-left: 8px solid transparent ;
+            border-right: 8px solid transparent;
+            border-bottom: 8px solid #555;
+        }
+
+        /*第二个覆盖到上面的三角形*/
+        .shareNet::after{
+            content: '';
+            display: block;
+            position: absolute;
+            top: -7.6px; /*向下偏移量是矩形边框宽度的1.4（根号2）倍，即8.4，top值为-26-（-8.4）*/
+            left: 80px;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 8px solid #fff;
+        }
+
+.code{display: none;}
+.wc:hover .code{display: block;}
+.code img{width: 135px;}
+
+.rightContent{width: 27.11864%;margin-left:1.69492%;}
+.hotType,.recommendLawyer{background: #fff;padding: 0 22px;}
+.recommendLawyer{margin-top: 20px;}
+.hotType ul{overflow: hidden;padding: 12px 0 34px 0}
+.hotType ul li{float: left;width: 26.71755%;height: 30px;margin:14px 0 0 9.92366%;text-align: center;line-height: 30px;background: #e4e8f5;font-size: 12px;color: #333;border-radius: 20px;cursor: pointer;}
+.hotType ul li:nth-child(3n+1){margin-left: 0}
+.hotType ul li:hover{background: #c9d3f3;}
+.topicType ul li{margin-left: 5%;width: 30%;}
+.lawyerInstro{padding:28px 0 39px 0;}
+.lawyerList{margin-top: 40px;}
+.lawyerList:first-child{margin-top: 0}
+.lawyerList img{vertical-align: middle;width: 70px;height: 70px;border-radius: 70px;}
+.lawyerList div{vertical-align: middle;margin-left:13px;display: inline-block;}
+.lawyerList .lawyerName{font-size: 16px;color: #666;}
+.lawyerList .lawyerName span{color: #333;}
+.lawyerList .lawyerPlace{font-size: 14px;color: #999;margin-top: 2px;}
+.lawyerList .lawyerArt{font-size: 12px;color: #9fa0a0;margin-top: 10px;}
+
+/*评论部分*/
+.myComment,.comments{background: #fff;margin-top: 20px;padding: 0 22px 25px;}
+.noLogin{height: 185px;background:#f7f8f8;border:1px solid #eee; color: #9fa0a0;text-align: center;line-height: 185px;font-size: 20px;margin-top: 20px;}
+.noLogin a{color: #455b95;text-decoration: underline;}
+.noLogin{display: none;}
+.haveLogin{border:1px solid #cecece;height: 185px;margin-top:10px;}
+.haveLogin textarea{width: 100%;padding: 10px;height: 141px;display: block;border: none;box-sizing: border-box;}
+.haveLogin ul{overflow: hidden;height: 42px;background: #f7f8f8;padding: 0 10px;}
+.haveLogin ul li{height: 100%;line-height: 42px;}
+.haveLogin .loginUser{float: left;}
+.haveLogin .loginUser img{vertical-align: middle;width: 30px;height: 30px;border-radius: 30px;}
+.haveLogin .loginUser span{vertical-align: middle;margin-left: 10px;color: #5d9cf3;font-size: 14px;}
+.haveLogin .submit{float: right;}
+.haveLogin .submit p{width: 80px;height: 30px;background: #455b95; line-height: 30px;color: #fff;font-size: 14px;text-align: center;margin-top: 6px;border-radius: 4px;cursor: pointer;}
+
+/*评论列表*/
+.lists{border-bottom: 1px solid #f7f8f8;padding: 35px 0;overflow: hidden;}
+.lists .userHead{width: 54px;height: 54px;border-radius: 54px;vertical-align: top}
+.info{display: inline-block;padding:5px 0 0 20px;}
+.info p{color: #666;font-size: 16px;display: inline-block;}
+.info p span{font-size: 14px;color: #999;margin-left: 20px;}
+.info ul{float: right;font-size: 14px;color: #999;}
+.info ul li{float: left;margin-left: 23px;cursor: pointer;}
+/*.info ul li img{vertical-align: middle;cursor: pointer;}*/
+.info ul li span{vertical-align: middle;margin-left: 28px;display: inline-block;}
+.res span{margin-top: -4px;}
+.info .content{font-size: 14px;color: #333;line-height: 22px;margin-top: 10px;}
+.info .content span{font-size: 14px;color: #999}
+/*.info .resBox{display: none;}*/
+.info .resBox div{ height: 75px;border:1px solid #cecece;margin: 20px 0 10px 0}
+.info .resBox div p{display: block;text-align: right;color: #ccc;font-size: 14px;padding: 0 10px 10px 0;}
+.info .resBox div textarea{width: 100%;box-sizing: border-box;padding: 10px;outline: 0;border:none;}
+.info .resBox button{width: 80px;height: 36px;background: #bbc6e3;border: none;border-radius: 4px;text-align: center;color: #fff;line-height: 36px;font-size: 13px;cursor: pointer;outline: 0;}
+.info .change div{border:1px solid #bbc6e3;}
+.info .change button{background: #455b95;}
+
+.good{width: 35px;height: 19px;background: url(../images/giveGood.png) no-repeat;}
+.res{width: 60px;height: 19px;background: url(../images/response.png) no-repeat;}
+.res:hover{background: url(../images/resHover.png) no-repeat;}
+.haveGive,.good:hover{background: url(../images/goodBlue.png) no-repeat;}
+
+
+.resArea{background: #f7f8f8;margin-top: 20px;padding: 0 20px;}
+.again{width: 100%;padding: 20px 0;border-bottom: 1px dashed #ebebeb}
+.again:last-child{border-bottom: none;}
+
+.noContent{text-align: center;padding: 200px 0px;line-height: 30px;color: #999;}
+.lookMore{width: 275px;height:30px;margin: 50px auto;line-height: 30px;text-align: center;color: #bbc6e3;border:1px solid #bbc6e3;cursor: pointer;}
+/*回顶部*/
+.reload{position: fixed;right: 0;margin-top: 270px;z-index: 1;}
+.reload div{width: 48px;height: 48px;background: #455b95;color: #fff;text-align: center;margin-top: 1px;cursor: pointer;}
+.reload div p{font-size: 12px;}
+.reload .last{padding-top: 6px;}
+
+/*话题详情页图片列表*/
+.topicImg{overflow: hidden;}
+.topicImg li{float: left;padding-left: 10px;width: 25%;}
+.topicImg li img{height: 200px;}
+

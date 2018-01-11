@@ -1,0 +1,71 @@
+﻿/*******************************************首页**************************************/
+body{ padding-bottom: 295px; }
+.content{ width: 100%; }
+.content > div{ width: 100%; }
+.swiper-banner{ position: relative; }
+.swiper-container{ width: 100%; }
+.swiper-pagination{ -webkit-transition: all .2s linear; transition: all .2s linear; }
+.swiper-banner .swiper-container-horizontal>.swiper-pagination-bullets{ bottom: 30px; }
+.swiper-container img{ display: block; width: 100%; pointer-events:none}
+.swiper-banner .swiper-pagination-bullet { width: 7px; height: 7px;  background: #fff; opacity: 1; }
+.swiper-banner .swiper-pagination-bullet-active { opacity: 1; background: #fff; width: 50px; border-radius: 4px;}
+.swiper-banner .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet { margin: 0 3px;}
+
+.contentBox{ width: 1180px; margin: auto; padding: 60px 0; overflow: hidden;}
+.contentBox h3{ text-align: center; color: #455b95; font-size: 24px; font-weight: bold; }
+.contentBox p.title{ text-align: center; color: #999; font-size: 14px; position: relative; line-height: 30px; padding-top: 5px; }
+.content-coo{ padding: 80px 0; } 
+
+.platList{ width: 100%; padding: 50px 0 0; overflow: hidden; }
+.platList li{ float: left; text-align: center; width: 25%; padding: 40px 2.5%; min-height: 300px; cursor: pointer;} 
+.platList li:hover{ background: #eaeef7; } 
+.platList li img{ width: 35%; }
+.platList li h4{ font-size: 16px; color: #333; line-height: 50px;}
+.platList li p{ color: #666; font-size: 14px; line-height: 25px; }
+
+.bgContent{ width: 100%; position: relative; }
+.bgContent .contentBox{ position: absolute;  top: 0; left: 50%; margin-left: -590px; }
+.aTitle{ height: 55px; }
+.aTitle a{ display: inline-block; cursor: pointer; background: #f2f2f4; width: 140px; line-height: 55px; border-right: 1px solid #e5e5e5; text-align: center; color: #000b2a; font-size: 20px;}
+.aTitle a.cur{ background: #455b95; color: #fff; }
+.article{ width: 100%; background: #fff; }
+.article div{ overflow: hidden; height: 468px; }
+.article div.answer, .article div.application{ display: none; }
+.article div ul{ float: left; width: 41%; background: #fbfbfb;}
+.article div ul li{ color: #2e2e2e; font-size: 16px; border-bottom: 1px solid #f2f2f4; height: 156px; display: table; width: 100%; cursor: pointer; }
+.article div ul li.cur{ background: #fff; }
+.article div ul li p{ padding:0 45px; display: table-cell; vertical-align: middle;}
+.article div ul li b{ color: #0f0d29; font-weight: bold; }
+.article div > div{ float: left; width: 59%; text-align: center; position: relative; }
+.article div > div div{ width: 100%; }
+.article div div h3{ font-size: 26px; padding-top: 30px; position: relative; z-index: 1;}
+.article div div p{ font-size: 16px; color: #727171; line-height: 50px; position: relative; z-index: 1;}
+.article div div img{ position: absolute; bottom: 0; right: 0; z-index: 0;}
+
+.data{ background: #f8f8f8; }
+.dataList{ width: 98%; padding: 50px 0 0; margin: 0 1%;}
+.dataList li{ float: left; text-align: center; width: 32%; margin-left: 2%; padding: 40px 40px; min-height: 375px; cursor: pointer; background: #fff; -webkit-transition: all .2s linear; transition: all .2s linear;} 
+.dataList li:first-child{ margin-left: 0; }
+.dataList li:hover{ box-shadow: 0 0 24px rgba(198,211,243,0.31); /*-webkit-transform: translate3d(0, -1px, 0);transform: translate3d(0, -1px, 0);*/} 
+.dataList li img{ width: 80%; }
+.dataList li h4{ font-size: 20px; color: #333; line-height: 30px; padding-top: 20px;}
+.dataList li h5{ font-size: 14px; color: #333; }
+.dataList li p{ color: #999; font-size: 14px; line-height: 20px; padding-top: 20px; }
+
+.network{ background: #efefef; }
+.network .contentBox{ padding: 80px 0 100px; }
+.networkList{ width: 100%; padding: 70px 0 0; overflow: hidden; }
+.networkList li{ float: left; text-align: left; width: 33.33%; margin: 0 auto ; padding-left: 110px;}
+.networkList li.major{ background: url(../images/major.png) no-repeat 40px center; }
+.networkList li.innovate{ background: url(../images/innovate.png) no-repeat 40px center; }
+.networkList li.absorbed{ background: url(../images/absorbed.png) no-repeat 40px center; }
+.networkList li h4{ font-size: 20px; color: #333; line-height: 35px; }
+.networkList li p{ color: #666 font-size: 16px; line-height: 25px; }
+
+
+@media screen and (max-width:1197px){
+	.contentBox{ width: 1000px; }
+	.bgContent .contentBox{ margin-left: -500px; }
+}
+
+

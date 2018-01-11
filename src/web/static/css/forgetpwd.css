@@ -1,0 +1,37 @@
+.bg-grad{background-color: #f7f8f8; padding-bottom: 0;}
+input{vertical-align: middle;}
+.hide{display: none}
+header{ position: relative; }
+
+.contentBody{ width:100%; height:auto; background: #e3e3e3; padding: 56px 0 52px;}
+.contentPwd{ width: 880px; height: 520px; margin: 0 auto; background: #fff;}
+.forgetTitle{ width:100%; height:60px; text-align:center; font-size:18px; color:#666;line-height:60px; border-bottom:solid 1px #eee;}
+.forgetInfo{ width:100%; height:30px; display:flex; }
+.forgetInfo1{ height: 50px; }
+.forgetInfo>div{ margin:auto auto; text-align: center; }
+.forgetInfo>div>img{ width:365px; height:57px; }
+.formyz{ width:282px;height:55px; border-bottom:solid 1px #eeeeee; margin:0 auto; line-height:55px; font-size:17px; display:flex;}
+[type=text]{ border:none; outline:medium; width:50%; height: 54px; padding:15px 0; line-height: 24px; float: left;}
+.icon{ display:inline-block; float:left;}
+.phone{ width:12px; height:18px; background-image:url("../images/phone.png");  margin-top:18px; }
+.dx{ width:16px; height:11px; background-image:url("../images/code.png"); margin-top:22px;}
+.imgs{ width:16px; height:18px; background-image:url("../images/suo.png"); margin-top:18px; float: left;}
+.tphone{ margin-left:16px;}
+.pass{ width:16px; height:20px; background-image:url("../images/password.png"); margin-top:16px;}
+.tyzm{ margin-left:12px; height: 54px; padding:15px 0; line-height: 24px; float: left;}
+.pwd{ margin-left: 12px; }
+.cnext{ width:100%;  margin-top:10px;}
+.next{ display:block;  border:none; outline:medium; width:281px; height:40px;text-align:center; border-radius:6px; background-color:#455b95; font-size:16px; color:white; margin:0 auto;cursor:pointer;}
+.forgetPwd2, .forgetPwd3{ display:none;}
+.tsInfo{ width:280px; margin:0 auto; text-align:left;  color:red; padding-top: 30px; line-height: 20px;}
+.getYzm{ float: right; background-color:white; border:none; outline:medium; color:#0099FF;font-size:14px; font-weight:400; cursor: pointer; width: 40%; height: 54px; }
+.succ{ width: 100%; margin: 30px auto 43px; text-align: center; }
+.succ p{ line-height: 40px; color: #666; font-size: 14px; }
+#succBtn{ width: 200px; }
+
+.picimg{ display: none; }
+#pic{ vertical-align: middle; height: 30px; cursor: pointer; }
+
+.login-footer{ margin: 50px 0 0 0; width: 100%; height: 100px; text-align: center;}
+.login-footer p{line-height: 28px;font-size: 14px; color: #999;}
+.login-footer p a{ color: #999; font-size: 14px; padding: 0 4px; cursor: pointer; }

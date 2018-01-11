@@ -1,0 +1,78 @@
+body{background: #f7f8f8;}
+.warp{width: 100%;color: #333;}
+.banner{width: 100%;height: 400px; background: url(../images/topicBanner.png) no-repeat;background-position: center;}
+.main,.aday .hourList{width: 1180px;margin:0 auto;}
+.noContent{text-align: center;padding: 200px 0px;line-height: 30px;color: #999;}
+.swiper-container{display: inline-block;width: 1098px;margin: 0 5px;vertical-align: middle;padding: 30px 0 50px 0;}
+@media screen and (max-width:1200px){
+	.main,.aday .hourList{width: 1000px;}
+	.swiper-container{width:918px;}
+}
+.aday{background: #fff;}
+.aday .go{width: 32px;height: 32px;background: #ccc;opacity: 0.5;text-align: center;display: inline-block;line-height: 38px;cursor: pointer;}
+.aday .go:hover{opacity: 1;}
+.aday .hourList{margin:0 auto;}
+/*.aday .hourList p{display: inline-block;font-size: 20px;border-bottom:1px solid #bbc6e3;padding: 50px 0 15px 0}*/
+/*.aday .hourList ul{overflow: hidden;border-top: 1px solid #cecece; }
+.aday .hourList ul li{float: left;width: 33.333%;box-sizing: border-box;padding-left: 20px;}*/
+/*.aday .hourList ul li:first-child{margin-left: -20px;}*/
+.swiper-slide{cursor: pointer;}
+.aday .hourList .swiper-slide img{width: 100%;height: 238px;}
+.aday .hourList .swiper-slide a{display: block;position: relative;}
+.aday .hourList .letter{width: 100%;height: 40px;display: block;position: absolute;background: #050613;margin-top: -43px;line-height: 40px;text-align: center;color: #fff;opacity: 0.5;z-index: 1;}
+
+.main{padding-top: 30px;overflow: hidden;}
+.newTopic,.recommendLawyer{float: left;background: #fff;padding: 0 22px;}
+.tit{border-bottom: 1px solid #cecece;font-size: 20px;}
+.tit span{display: inline-block;padding: 35px 0 15px 0;border-bottom:1px solid #bbc6e3;}
+.tit .all{float: right;border-bottom: none;font-size: 16px;cursor: pointer;}
+.newTopic{width:71.18644%;padding: 0 12px;}
+.topicIntro{border-bottom: 1px solid #eee;color: #666;position: relative;padding:0 10px;}
+.topicIntro:hover{background: #f8f8f8;}
+.topicIntro .top{padding:30px 0 0 0;}
+.topicIntro .top img,.topicIntro .top div{vertical-align: middle;}
+.topicIntro .top img{width: 40px;height: 40px;border-radius: 40px;}
+.topicIntro .top div{margin-left: 13px;display: inline-block;}
+.topicIntro .top p{font-size: 16px;}
+.topicIntro .top p.lawPlace{font-size: 14px;color: #999;}
+.topicIntro .top .rightTime{float: right;font-size: 12px;color: #999}
+.topicIntro .content{position: relative;}
+.strAll,.strSub,.event{line-height: 30px;font-size: 16px;padding: 10px 0 13px 0;}
+.topicIntro .content .strAll{display: none;}
+.topicIntro .showAll .strAll{display: block;}
+.topicIntro .showAll .strSub{display: none;}
+.topicIntro .content .seeAll{position: absolute;width: 80px;color: #5d9cf3;cursor: pointer;right: 0;bottom: 0;line-height: 55px;}
+.topicIntro .content .seeAll span{margin-right: 5px;vertical-align: middle;}
+
+.topicIntro ul{overflow: hidden;}
+.topicIntro .picture li:first-child{margin-left: 0}
+.topicIntro .picture li{float: left;width: 25%;padding-left: 10px;overflow: hidden;margin-top: 10px;}
+.topicIntro .picture li img{width: 100%;height: 200px;}
+.topicIntro .handle{padding: 25px 0 35px 0;font-size: 14px;}
+.topicIntro .handle ul{float: right;margin-top: -18px;color: #999;}
+.topicIntro .handle ul li{float: left;}
+.topicIntro .handle .line{margin:0 15px;}
+.good{display: inline-block;width: 16px;height: 16px;background: url(../images/good.png);cursor: pointer;}
+.change{background: url(../images/haveGood.png)}
+.topicIntro .handle ul li img,.topicIntro .handle li span{vertical-align: top;}
+.topicIntro .handle ul li span{margin-left: 5px;}
+.topicIntro .handle .author{color:#5d9cf3; }
+.lookMore{width: 275px;height:30px;margin: 40px auto;line-height: 30px;text-align: center;color: #bbc6e3;border:1px solid #bbc6e3;cursor: pointer;}
+
+.recommendLawyer{width: 27.11864%;margin-left:1.69492%;}
+.lawyerInstro{padding:28px 0 39px 0;}
+.lawyerList{margin-top: 40px;}
+.lawyerList:first-child{margin-top: 0}
+.lawyerList img{vertical-align: middle;width: 70px;height: 70px;border-radius: 70px;}
+.lawyerList div{vertical-align: middle;margin-left:13px;display: inline-block;}
+.lawyerList .lawyerName{font-size: 16px;color: #666;}
+.lawyerList .lawyerName span{color: #333;}
+.lawyerList .lawyerPlace{font-size: 14px;color: #999;margin-top: 2px;}
+.lawyerList .lawyerArt{font-size: 12px;color: #9fa0a0;margin-top: 10px;}
+
+/*回顶部*/
+.reload{position: fixed;right: 0;margin-top: -400px;z-index: 1;}
+.reload div{width: 48px;height: 48px;background: #455b95;color: #fff;text-align: center;margin-top: 1px;cursor: pointer;}
+.reload div p{font-size: 12px;}
+.reload .first{line-height: 59px;}
+.reload .last{padding-top: 6px;}

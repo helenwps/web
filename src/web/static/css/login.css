@@ -1,0 +1,44 @@
+.bg-grad{background-color: #f7f8f8; padding-bottom: 0;}
+input{vertical-align: middle;}
+.hide{display: none}
+header{ position: relative; }
+.content {  margin: 0 auto; width: 100%; height: 600px;  background-image: url(../images/loginBg.png); background-repeat: no-repeat;  background-size: cover;}
+.loginWrap{width: 350px; height: 440px; background: #fff;padding:40px 33px 0; float: right;margin: 53px 23.4% 0; text-align: center;}
+.loginWrap h3{font-size: 30px; color:#333;line-height: 60px; text-align: center;}
+.login ul li{text-align: left;border-bottom: 1px solid #eee;color: #999; background-size: 8%;padding-left: 12px;margin-top: 20px;}
+.login .userName{ background: url(../images/name.png) no-repeat 5px center; }
+.login .userPwd{ background: url(../images/password.png) no-repeat 5px center; }
+.login ul li input{font-size: 16px;padding: 10px 0; margin-left: 25px;width: 88%; color: #333;}
+.login .autoLogin{padding: 15px 0 10px 5px;color: #a1a1a1}
+.login .autoLogin input{margin-right: 8px;}
+.login .errorInfo{ color: red; text-align: left; height: 40px; line-height: 40px; padding-left: 5px; }
+.login .sbtn{width: 280px;background: #455b95;font-size: 16px;color: #fff;padding: 9.5px;border-radius: 4px; cursor: pointer;}
+.login a{display: inline-block;color: #999;font-size: 16px;padding: 0px 10px;line-height: 15px;margin-top: 55px;}
+.login a:hover{color: #0099ff;}
+.login .lawreg{border-right: 1px solid #999;}
+
+.regWrap{ height: 508px; padding: 30px 33px 0; margin-top: 30px;}
+.reg .phone{ background: url(../images/phone.png) no-repeat 5px center;}
+.reg .code{ background: url(../images/code.png) no-repeat 5px center; }
+.reg .imgCode{ background: url(../images/suo.png) no-repeat 5px center; }
+#yzm { width: 58%;}
+.reg .code .getCode{padding:0;margin: 0;font-size: 14px;color: #0099ff;text-align: right;cursor: pointer;float: right;margin-top: 8px; border:none; background-color:white; outline:medium;}
+.reg .errorInfo{ margin-top: 14px; }
+.reg .goLogin{font-size: 16px; color: #999;}
+.reg .goLogin a{margin-top: 25px;padding-left: 2px;color: #0099ff;}
+
+.box{width: 373px;height: 233px;background: #fff;text-align: center;display: none; position: relative;}
+.box p{padding:80px 0 40px; line-height: 25px; }
+.box a{width: 110px;padding:7.5px 0;display: inline-block;background: #f5f5f5;border-radius: 6px;font-size: 16px;border:1px solid #e5e5e5;}
+.box a:last-child{background: #0099ff;border:none;margin-left:40px; color: #fff}
+.box .boxIcon{margin: 0 auto; position: absolute; top: -38px; left: 50%; margin-left: -38px; padding: 8px; background: #fff; border-radius: 50%;}
+
+.login-footer{ margin: 50px 0 0 0; width: 100%; height: 100px; text-align: center;}
+.login-footer p{line-height: 28px;font-size: 14px; color: #999;}
+.login-footer p a{ color: #999; font-size: 14px; padding: 0 4px; cursor: pointer; }
+
+.layui-layer-page .layui-layer-content{ overflow: visible !important; }
+
+.imgCode{ display: none; }
+#yzmImg {  width: 50%;  vertical-align: top;}
+#pic { float: right; cursor: pointer;}
